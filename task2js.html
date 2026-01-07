@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>SIMPLE CALCULATOR</h1>
+    <script>
+     let num1 = parseFloat(prompt("enter a first number"))
+     let operator = prompt("enter operator")
+     let num2 = parseFloat(prompt("enter second number"))
+     let result
+     if(operator === "+")
+     {
+        result=num1+num2;
+     }
+     else if (operator === "-")
+     {
+        result=num1-num2;
+     }
+     else if (operator === "*")
+     {
+        result=num1*num2
+     }
+     else if(operator === "/")
+     {
+      if(num2 !==0)
+      {
+        result=num1/num2
+      }
+     
+        else{
+            result="not equal to zero"
+        }
+    }
+
+        else{
+             result="invalid"
+        }
+     
+     
+     
+
+     alert(result);
+    </script>
+
+
+    alert(result)
+    alert(result)
+    alert(result)
+
+</body>
+</html>
